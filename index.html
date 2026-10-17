@@ -3,9 +3,576 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Hello, World!</title>
+  <title>Репетитор по математике онлайн — подготовка к ОГЭ и ЕГЭ | Маргарита Владимировна</title>
+  <meta name="description" content="Надёжная подготовка к ОГЭ и ЕГЭ по математике онлайн. 30 лет опыта, эксперт по проверке экзаменов. 8–11 класс. Бесплатное пробное занятие с диагностикой уровня и честным прогнозом результата.">
+  <link rel="canonical" href="https://repmv.ru/">
+  <meta name="theme-color" content="#F6F4EF">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="ru_RU">
+  <meta property="og:url" content="https://repmv.ru/">
+  <meta property="og:title" content="Маргарита Владимировна — репетитор по математике, ОГЭ и ЕГЭ онлайн">
+  <meta property="og:description" content="30 лет опыта, эксперт по проверке ОГЭ и ЕГЭ. Бесплатное пробное занятие: диагностика уровня и честный прогноз результата.">
+  <!-- TODO: добавить картинку для соцсетей 1200×630: <meta property="og:image" content="https://repmv.ru/assets/og.jpg"> -->
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Literata:ital,opsz,wght@0,7..72,500;0,7..72,600;1,7..72,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script>document.documentElement.classList.add('js')</script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Маргарита Владимировна",
+    "jobTitle": "Репетитор по математике",
+    "url": "https://repmv.ru/",
+    "description": "Подготовка к ОГЭ и ЕГЭ по математике онлайн, школьная программа 8 и 10 классов. 30 лет опыта.",
+    "knowsAbout": ["Математика", "ОГЭ по математике", "ЕГЭ по математике (базовый уровень)", "ЕГЭ по математике (профильный уровень)"],
+    "makesOffer": [
+      {"@type": "Offer", "name": "Пробное занятие", "price": "0", "priceCurrency": "RUB"},
+      {"@type": "Offer", "name": "Школьная программа, 8 и 10 класс, 60 минут", "price": "1500", "priceCurrency": "RUB"},
+      {"@type": "Offer", "name": "Подготовка к ОГЭ, 9 класс, 90 минут", "price": "2000", "priceCurrency": "RUB"},
+      {"@type": "Offer", "name": "ЕГЭ, базовый уровень, 60 минут", "price": "2000", "priceCurrency": "RUB"},
+      {"@type": "Offer", "name": "ЕГЭ, профильный уровень, 90 минут", "price": "2500", "priceCurrency": "RUB"}
+    ]
+  }
+  </script>
 </head>
 <body>
-  <h1>Hello, World!</h1>
+
+  <!-- Иконки (SVG-спрайт) -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.2 4.2L19 7" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M7 7l10 10M17 7L7 17" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-bulb" viewBox="0 0 24 24"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-3.5 10.9c.6.5 1 1.2 1 2V16h5v-.1c0-.8.4-1.5 1-2A6 6 0 0 0 12 3z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-badge" viewBox="0 0 24 24"><circle cx="12" cy="9" r="5.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8.5 13.5L7 21l5-2.5 5 2.5-1.5-7.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><path d="M9.8 9l1.5 1.5L14.3 7.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-refresh" viewBox="0 0 24 24"><path d="M20 11a8 8 0 0 0-14.6-4.5M4 4v3.5h3.5M4 13a8 8 0 0 0 14.6 4.5M20 20v-3.5h-3.5" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A1.5 1.5 0 0 1 5.5 4H11v15H5.5A1.5 1.5 0 0 0 4 20.5zM20 5.5A1.5 1.5 0 0 0 18.5 4H13v15h5.5a1.5 1.5 0 0 1 1.5 1.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-calm" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8.5" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M8.5 14.5c1 1.2 2.2 1.8 3.5 1.8s2.5-.6 3.5-1.8M9 10h.01M15 10h.01" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"/></symbol>
+    <symbol id="i-eye" viewBox="0 0 24 24"><path d="M2.5 12S6 5.5 12 5.5 21.5 12 21.5 12 18 18.5 12 18.5 2.5 12 2.5 12z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="12" r="2.8" fill="none" stroke="currentColor" stroke-width="1.7"/></symbol>
+    <symbol id="i-photo" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="1.5"/><circle cx="9" cy="10" r="1.8" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M4 17l5-4.5 3.5 3 3-2.5L20 17" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></symbol>
+    <symbol id="i-tg" viewBox="0 0 24 24"><path d="M21 4.5L2.8 11.4c-.8.3-.8 1.4 0 1.6l4.5 1.5 1.7 5.2c.2.7 1.1.9 1.6.4l2.5-2.4 4.6 3.4c.6.4 1.4.1 1.6-.6L22.2 5.7c.2-.8-.5-1.5-1.2-1.2zM9.5 14.2l8.2-6.6-6.5 7.6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 3.5h3.2l1.6 4.2-2 1.3a11 11 0 0 0 5.2 5.2l1.3-2 4.2 1.6V17a2.5 2.5 0 0 1-2.7 2.5C9.4 19 5 14.6 4.5 8.2A2.5 2.5 0 0 1 5 3.5z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 1-11.8 7L4 20l1.1-4A8 8 0 1 1 20 12z" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#main">Перейти к содержанию</a>
+
+  <!-- ================= ШАПКА ================= -->
+  <header class="header" data-header>
+    <div class="container header__inner">
+      <a class="brand" href="#top" aria-label="На главную">
+        <span class="brand__mark" aria-hidden="true">МВ</span>
+        <span class="brand__text">
+          <span class="brand__name">Маргарита Владимировна</span>
+          <span class="brand__role">репетитор по математике</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Основная навигация" data-nav>
+        <a href="#approach">Подход</a>
+        <a href="#about">Обо мне</a>
+        <a href="#trial">Пробное</a>
+        <a href="#prices">Цены</a>
+        <a href="#faq">Вопросы</a>
+        <a class="btn btn--primary nav__cta" href="#signup">Записаться бесплатно</a>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header__cta" href="#signup">Пробное бесплатно</a>
+
+      <button class="burger" type="button" aria-label="Открыть меню" aria-expanded="false" aria-controls="nav" data-burger>
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ================= 1. HERO ================= -->
+    <section class="hero" id="top">
+      <div class="container hero__grid">
+        <div class="hero__content">
+          <p class="eyebrow reveal">Репетитор по математике · онлайн</p>
+          <h1 class="hero__title reveal">
+            <em>Надёжная</em> подготовка к&nbsp;ОГЭ и&nbsp;ЕГЭ по&nbsp;математике
+          </h1>
+          <p class="hero__lead reveal">
+            Объясняю так, чтобы ученик понимал предмет, а&nbsp;не заучивал «лайфхаки». 30&nbsp;лет в&nbsp;репетиторстве и&nbsp;опыт эксперта, проверяющего экзаменационные работы, — знаю, за&nbsp;что дают и&nbsp;за&nbsp;что снимают баллы.
+          </p>
+
+          <div class="hero__actions reveal">
+            <a class="btn btn--primary btn--lg" href="#signup">
+              Записаться на бесплатное пробное
+              <svg class="btn__icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+            </a>
+            <a class="btn btn--ghost btn--lg" href="#trial">Как проходит пробное</a>
+          </div>
+          <p class="hero__note reveal">
+            <svg aria-hidden="true"><use href="#i-check"/></svg>
+            Без обязательств: определим уровень и&nbsp;честно скажу, на&nbsp;какой результат можно рассчитывать
+          </p>
+        </div>
+
+        <div class="hero__visual reveal">
+          <!-- ЗАГЛУШКА ФОТО: портрет, вертикальный 4:5, ≥ 1000×1250 px. Заменить div на <img src="assets/portrait.jpg" alt="Маргарита Владимировна" width="1000" height="1250"> -->
+          <div class="ph ph--portrait" role="img" aria-label="Место для портретной фотографии">
+            <svg aria-hidden="true"><use href="#i-photo"/></svg>
+            <span>Портрет<br><small>вертикальное фото 4:5</small></span>
+          </div>
+
+          <div class="float-card float-card--top">
+            <span class="float-card__num">30</span>
+            <span class="float-card__text">лет готовлю<br>к экзаменам</span>
+          </div>
+          <div class="float-card float-card--bottom">
+            <span class="float-card__icon"><svg aria-hidden="true"><use href="#i-badge"/></svg></span>
+            <span class="float-card__text"><strong>Эксперт ОГЭ и ЕГЭ</strong><br>проверяю экзаменационные работы</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <ul class="facts reveal" aria-label="Коротко обо мне">
+          <li><strong>30 лет</strong><span>опыта в репетиторстве</span></li>
+          <li><strong>Эксперт</strong><span>по проверке ОГЭ и ЕГЭ</span></li>
+          <li><strong>Педагог</strong><span>по образованию</span></li>
+          <li><strong>Онлайн</strong><span>из любого города</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ================= 2. БОЛИ ================= -->
+    <section class="section" id="worries">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Знакомо?</p>
+          <h2 class="section__title">С этими тревогами ко&nbsp;мне приходят почти все</h2>
+        </header>
+
+        <div class="worries">
+          <article class="worry-card reveal">
+            <h3 class="worry-card__title">Родители</h3>
+            <ul class="worry-list">
+              <li>«Как понять, что репетитор действительно компетентный и&nbsp;ответственный?»</li>
+              <li>«Хороший репетитор — наверняка это очень дорого»</li>
+              <li>«Ребёнок ходит на&nbsp;занятия, но&nbsp;готов ли он на&nbsp;самом деле?»</li>
+            </ul>
+          </article>
+          <article class="worry-card reveal">
+            <h3 class="worry-card__title">Ученики</h3>
+            <ul class="worry-list">
+              <li>«Боюсь не&nbsp;набрать нужный балл»</li>
+              <li>«На экзамене волнуюсь и&nbsp;забываю даже то, что знаю»</li>
+              <li>«Объясняют, а&nbsp;я&nbsp;не понимаю — и&nbsp;стесняюсь переспросить»</li>
+            </ul>
+          </article>
+        </div>
+
+        <p class="bridge reveal">
+          Эти страхи уходят, когда подготовка <strong>системная</strong>, объяснения <strong>понятные</strong>, а&nbsp;рядом человек, которому можно доверять.
+        </p>
+      </div>
+    </section>
+
+    <!-- ================= 3. ПОДХОД ================= -->
+    <section class="section section--alt" id="approach">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Как я готовлю</p>
+          <h2 class="section__title">Знания, которые остаются и&nbsp;после экзамена</h2>
+          <p class="section__lead">Моя задача — не натаскать на&nbsp;шаблоны, а&nbsp;дать прочную базу. Тогда и&nbsp;нестандартная задача не пугает, и&nbsp;результат предсказуем.</p>
+        </header>
+
+        <div class="features">
+          <article class="feature reveal">
+            <span class="feature__icon"><svg aria-hidden="true"><use href="#i-bulb"/></svg></span>
+            <h3>Понимание, а&nbsp;не&nbsp;трюки</h3>
+            <p>Разбираем, почему решение работает. Ученик учится рассуждать — и&nbsp;справляется с&nbsp;задачами, которых раньше не&nbsp;видел.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon"><svg aria-hidden="true"><use href="#i-badge"/></svg></span>
+            <h3>Взгляд эксперта-проверяющего</h3>
+            <p>Я&nbsp;знаю критерии оценивания изнутри: как оформить решение, чтобы не&nbsp;потерять баллы на&nbsp;формальностях.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon"><svg aria-hidden="true"><use href="#i-refresh"/></svg></span>
+            <h3>Актуальные материалы</h3>
+            <p>Слежу за&nbsp;изменениями в&nbsp;экзаменах каждый год. Готовимся к&nbsp;тому экзамену, который будет сдавать ученик, а&nbsp;не&nbsp;к&nbsp;прошлогоднему.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon"><svg aria-hidden="true"><use href="#i-book"/></svg></span>
+            <h3>Собственная методика</h3>
+            <p>За&nbsp;30&nbsp;лет сложилась своя система объяснений и&nbsp;подборок задач — проверенная годами практики.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon"><svg aria-hidden="true"><use href="#i-calm"/></svg></span>
+            <h3>Спокойствие на&nbsp;экзамене</h3>
+            <p>Уверенность приходит, когда формат знаком. Решаем задания в&nbsp;экзаменационном формате, чтобы в&nbsp;день экзамена не&nbsp;было сюрпризов.</p>
+          </article>
+          <article class="feature reveal">
+            <span class="feature__icon"><svg aria-hidden="true"><use href="#i-eye"/></svg></span>
+            <h3>Честность с&nbsp;родителями</h3>
+            <p>С&nbsp;первого занятия говорю как есть: какой уровень сейчас и&nbsp;на&nbsp;какой результат реально выйти. Без пустых обещаний.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 4. ОБО МНЕ ================= -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about__media reveal">
+          <!-- ЗАГЛУШКА ФОТО: рабочее фото (за занятием / у доски), 4:5 или 1:1 -->
+          <div class="ph ph--about" role="img" aria-label="Место для фотографии за работой">
+            <svg aria-hidden="true"><use href="#i-photo"/></svg>
+            <span>Фото за&nbsp;работой<br><small>например, во&nbsp;время онлайн-занятия</small></span>
+          </div>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow reveal">Обо мне</p>
+          <h2 class="section__title reveal">Маргарита Владимировна</h2>
+          <p class="about__lead reveal">
+            Репетитор по&nbsp;математике с&nbsp;педагогическим образованием и&nbsp;30-летним опытом. Готовлю к&nbsp;ОГЭ и&nbsp;ЕГЭ и&nbsp;веду школьную программу 8 и&nbsp;10&nbsp;классов. Занимаюсь онлайн — с&nbsp;учениками из&nbsp;любого города.
+          </p>
+
+          <ul class="creds reveal">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>Эксперт по&nbsp;проверке ОГЭ и&nbsp;ЕГЭ</strong> — знаю, как на&nbsp;самом деле оценивают работы</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>Педагогическое образование</strong> — объясняю системно и&nbsp;последовательно</span></li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg><span><strong>Свои материалы и&nbsp;наработки</strong>, обновляемые под&nbsp;актуальный формат экзаменов</span></li>
+          </ul>
+
+          <blockquote class="quote reveal">
+            <p>Мне важно, чтобы ученик по-настоящему понимал математику. Когда есть понимание, экзамен перестаёт быть лотереей.</p>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 5. КОМУ ПОДОЙДУ ================= -->
+    <section class="section section--tight" id="fit">
+      <div class="container">
+        <header class="section__head section__head--center reveal">
+          <p class="eyebrow">Честно о&nbsp;формате</p>
+          <h2 class="section__title">Мы сработаемся, если&nbsp;…</h2>
+        </header>
+
+        <div class="fit">
+          <div class="fit__col fit__col--yes reveal">
+            <h3>Подойду, если</h3>
+            <ul>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg>ученик хочет разобраться в&nbsp;предмете, а&nbsp;не&nbsp;просто «отсидеть» занятие</li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg>уровень средний или выше среднего, и&nbsp;хочется уверенно сдать экзамен на&nbsp;хороший балл</li>
+              <li><svg aria-hidden="true"><use href="#i-check"/></svg>родителям важно понимать, как идёт подготовка, и&nbsp;быть на&nbsp;связи</li>
+            </ul>
+          </div>
+          <div class="fit__col fit__col--no reveal">
+            <h3>Скорее не подойду, если</h3>
+            <ul>
+              <li><svg aria-hidden="true"><use href="#i-x"/></svg>занятия планируется пропускать, а&nbsp;учиться нет желания</li>
+              <li><svg aria-hidden="true"><use href="#i-x"/></svg>нужен «волшебный способ» сдать без усилий</li>
+              <li><svg aria-hidden="true"><use href="#i-x"/></svg>нужно просто сделать домашнее задание за&nbsp;ученика</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 6. ПРОБНОЕ ЗАНЯТИЕ ================= -->
+    <section class="section section--dark" id="trial">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow eyebrow--light">Бесплатное пробное занятие</p>
+          <h2 class="section__title">Сначала — диагностика и&nbsp;честный прогноз. Решение — потом</h2>
+          <p class="section__lead">Пробное занятие ни&nbsp;к&nbsp;чему не&nbsp;обязывает. Его цель — чтобы вы&nbsp;понимали, на&nbsp;что можно рассчитывать, а&nbsp;ученик почувствовал, комфортно ли ему со&nbsp;мной.</p>
+        </header>
+
+        <ol class="steps">
+          <li class="step reveal">
+            <span class="step__num">01</span>
+            <h3>Заявка</h3>
+            <p>Оставляете заявку на&nbsp;сайте или пишете в&nbsp;мессенджер. Договариваемся об&nbsp;удобном времени.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">02</span>
+            <h3>Знакомство и&nbsp;диагностика</h3>
+            <p>Онлайн-занятие с&nbsp;учеником: смотрю, как он рассуждает, какие темы уверенные, а&nbsp;где есть пробелы.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">03</span>
+            <h3>Честный прогноз</h3>
+            <p>Рассказываю родителям, на&nbsp;какой балл реально подготовить ученика и&nbsp;что для этого понадобится.</p>
+          </li>
+          <li class="step reveal">
+            <span class="step__num">04</span>
+            <h3>Решаете вы</h3>
+            <p>Вместе решаем, будем ли работать дальше. Без давления и&nbsp;навязывания.</p>
+          </li>
+        </ol>
+
+        <div class="trial-cta reveal">
+          <div>
+            <p class="trial-cta__title">Пробное занятие — <span>0&nbsp;₽</span></p>
+            <p class="trial-cta__text">Вы получаете: оценку уровня, понимание сильных и&nbsp;слабых тем и&nbsp;реалистичный прогноз результата.</p>
+          </div>
+          <a class="btn btn--light btn--lg" href="#signup">
+            Записаться на пробное
+            <svg class="btn__icon" aria-hidden="true"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 7. ЦЕНЫ ================= -->
+    <section class="section" id="prices">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Стоимость</p>
+          <h2 class="section__title">Прозрачные цены за&nbsp;одно занятие</h2>
+          <p class="section__lead">Стоимость фиксированная и&nbsp;зависит только от&nbsp;класса и&nbsp;формата. Первое занятие — бесплатно.</p>
+        </header>
+
+        <div class="prices">
+          <article class="price reveal">
+            <p class="price__tag">8 и&nbsp;10 класс</p>
+            <h3 class="price__title">Школьная программа</h3>
+            <p class="price__desc">Закрываем пробелы и&nbsp;строим прочную базу — фундамент будущего экзамена.</p>
+            <p class="price__value"><strong>1&nbsp;500&nbsp;₽</strong><span>60 минут</span></p>
+            <a class="btn btn--outline" href="#signup" data-grade="8 или 10 класс — школьная программа">Записаться</a>
+          </article>
+
+          <article class="price price--featured reveal">
+            <p class="price__badge">Подготовка к&nbsp;экзамену</p>
+            <p class="price__tag">9 класс</p>
+            <h3 class="price__title">ОГЭ</h3>
+            <p class="price__desc">Системная подготовка ко&nbsp;всем частям экзамена, включая задания с&nbsp;развёрнутым решением.</p>
+            <p class="price__value"><strong>2&nbsp;000&nbsp;₽</strong><span>90 минут</span></p>
+            <a class="btn btn--primary" href="#signup" data-grade="9 класс — ОГЭ">Записаться</a>
+          </article>
+
+          <article class="price reveal">
+            <p class="price__tag">11 класс</p>
+            <h3 class="price__title">ЕГЭ, базовый уровень</h3>
+            <p class="price__desc">Уверенная сдача базы для тех, кому не&nbsp;нужна профильная математика.</p>
+            <p class="price__value"><strong>2&nbsp;000&nbsp;₽</strong><span>60 минут</span></p>
+            <a class="btn btn--outline" href="#signup" data-grade="11 класс — ЕГЭ база">Записаться</a>
+          </article>
+
+          <article class="price reveal">
+            <p class="price__tag">11 класс</p>
+            <h3 class="price__title">ЕГЭ, профильный уровень</h3>
+            <p class="price__desc">Глубокая проработка для поступления на&nbsp;специальности, где нужна профильная математика.</p>
+            <p class="price__value"><strong>2&nbsp;500&nbsp;₽</strong><span>90 минут</span></p>
+            <a class="btn btn--outline" href="#signup" data-grade="11 класс — ЕГЭ профиль">Записаться</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 8. ОТЗЫВЫ ================= -->
+    <!-- ЗАГЛУШКИ: заменить на скриншоты отзывов из мессенджеров / фото с подписью (имя, класс, результат). -->
+    <section class="section section--alt" id="reviews">
+      <div class="container">
+        <header class="section__head reveal">
+          <p class="eyebrow">Отзывы</p>
+          <h2 class="section__title">Что говорят ученики и&nbsp;родители</h2>
+        </header>
+
+        <div class="reviews">
+          <figure class="review reveal">
+            <div class="ph ph--review" role="img" aria-label="Место для скриншота отзыва">
+              <svg aria-hidden="true"><use href="#i-photo"/></svg>
+              <span>Скриншот отзыва<br><small>из мессенджера, 3:4</small></span>
+            </div>
+            <figcaption><strong>Имя родителя</strong><span>ученик 9 класса, ОГЭ</span></figcaption>
+          </figure>
+          <figure class="review reveal">
+            <div class="ph ph--review" role="img" aria-label="Место для скриншота отзыва">
+              <svg aria-hidden="true"><use href="#i-photo"/></svg>
+              <span>Скриншот отзыва<br><small>из мессенджера, 3:4</small></span>
+            </div>
+            <figcaption><strong>Имя ученика</strong><span>11 класс, ЕГЭ профиль</span></figcaption>
+          </figure>
+          <figure class="review reveal">
+            <div class="ph ph--review" role="img" aria-label="Место для скриншота отзыва">
+              <svg aria-hidden="true"><use href="#i-photo"/></svg>
+              <span>Скриншот отзыва<br><small>из мессенджера, 3:4</small></span>
+            </div>
+            <figcaption><strong>Имя родителя</strong><span>ученица 11 класса, ЕГЭ база</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 9. FAQ ================= -->
+    <section class="section" id="faq">
+      <div class="container faq-wrap">
+        <header class="section__head reveal">
+          <p class="eyebrow">Вопросы и&nbsp;ответы</p>
+          <h2 class="section__title">Частые вопросы</h2>
+          <p class="section__lead">Не нашли ответ? Задайте вопрос в&nbsp;заявке — отвечу лично.</p>
+        </header>
+
+        <div class="faq">
+          <details class="faq__item reveal" open>
+            <summary>Пробное занятие действительно бесплатное?</summary>
+            <div class="faq__body"><p>Да. Пробное занятие ни&nbsp;к&nbsp;чему не&nbsp;обязывает: я&nbsp;определяю уровень ученика, рассказываю родителям, на&nbsp;какой результат можно рассчитывать, и&nbsp;только после этого вы решаете, продолжать ли занятия.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Как проходят занятия онлайн?</summary>
+            <div class="faq__body"><p>По&nbsp;видеосвязи, в&nbsp;удобное для вас время. Нужны только компьютер или планшет с&nbsp;интернетом. Без дороги — время уходит на&nbsp;учёбу, а&nbsp;не&nbsp;на&nbsp;переезды.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Вы гарантируете определённый балл?</summary>
+            <div class="faq__body"><p>Честно — гарантировать балл не может никто, результат зависит и&nbsp;от&nbsp;работы ученика. Зато после пробного занятия я&nbsp;даю реалистичный прогноз и&nbsp;работаю на&nbsp;него системно. Поэтому мне важно заниматься с&nbsp;мотивированными учениками.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Когда лучше начинать подготовку к&nbsp;экзамену?</summary>
+            <div class="faq__body"><p>Чем раньше — тем спокойнее. Оптимально начинать в&nbsp;начале выпускного класса или раньше: так хватает времени и&nbsp;закрыть пробелы, и&nbsp;отработать экзаменационный формат. Но&nbsp;и&nbsp;позже можно выстроить план — обсудим на&nbsp;пробном.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Какой уровень нужен, чтобы начать?</summary>
+            <div class="faq__body"><p>Лучше всего мы сработаемся, если ученик уже на&nbsp;среднем или выше среднего уровне и&nbsp;готов заниматься. Если сомневаетесь — приходите на&nbsp;пробное, я&nbsp;честно скажу, смогу ли помочь.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Почему занятия разной длительности?</summary>
+            <div class="faq__body"><p>Подготовка к&nbsp;ОГЭ и&nbsp;профильному ЕГЭ идёт по&nbsp;90&nbsp;минут: так успеваем и&nbsp;разобрать теорию, и&nbsp;прорешать задачи с&nbsp;развёрнутым ответом. Школьная программа и&nbsp;базовый ЕГЭ — по&nbsp;60&nbsp;минут.</p></div>
+          </details>
+          <details class="faq__item reveal">
+            <summary>Как часто нужно заниматься?</summary>
+            <div class="faq__body"><p>Это зависит от&nbsp;уровня и&nbsp;цели. Частоту занятий подбираем индивидуально после пробного — исходя из&nbsp;того, сколько времени осталось до&nbsp;экзамена и&nbsp;какие темы требуют внимания.</p></div>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= 10. ФОРМА ЗАЯВКИ ================= -->
+    <section class="section section--signup" id="signup">
+      <div class="container signup">
+        <div class="signup__info reveal">
+          <p class="eyebrow">Запись</p>
+          <h2 class="section__title">Запишитесь на&nbsp;бесплатное пробное занятие</h2>
+          <p class="section__lead">Оставьте контакты — я&nbsp;свяжусь с&nbsp;вами, чтобы договориться о&nbsp;времени.</p>
+
+          <ul class="signup__list">
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Диагностика уровня ученика</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Честный прогноз результата</li>
+            <li><svg aria-hidden="true"><use href="#i-check"/></svg>Без оплаты и&nbsp;обязательств</li>
+          </ul>
+
+          <div class="direct">
+            <p class="direct__label">Или напишите напрямую:</p>
+            <div class="direct__links">
+              <!-- TODO: подставить реальные контакты (здесь и в script.js → CONFIG) -->
+              <a class="chip" href="https://t.me/USERNAME" target="_blank" rel="noopener" data-contact="telegram"><svg aria-hidden="true"><use href="#i-tg"/></svg>Telegram</a>
+              <a class="chip" href="tel:+79000000000" data-contact="phone"><svg aria-hidden="true"><use href="#i-phone"/></svg>+7 (900) 000-00-00</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="signup__form-wrap reveal">
+          <form class="form" id="lead-form" novalidate>
+            <div class="form__row">
+              <label class="field">
+                <span class="field__label">Ваше имя</span>
+                <input class="field__input" type="text" name="name" autocomplete="name" placeholder="Например, Анна" required>
+                <span class="field__error">Пожалуйста, укажите имя</span>
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="field">
+                <span class="field__label">Телефон или Telegram</span>
+                <input class="field__input" type="text" name="contact" autocomplete="tel" inputmode="text" placeholder="+7 900 000-00-00 или @username" required>
+                <span class="field__error">Укажите телефон или ник в Telegram</span>
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="field">
+                <span class="field__label">Класс и цель</span>
+                <select class="field__input" name="grade" required>
+                  <option value="" disabled selected>Выберите вариант</option>
+                  <option>8 или 10 класс — школьная программа</option>
+                  <option>9 класс — ОГЭ</option>
+                  <option>11 класс — ЕГЭ база</option>
+                  <option>11 класс — ЕГЭ профиль</option>
+                  <option>Пока не знаю, нужна консультация</option>
+                </select>
+                <span class="field__error">Выберите класс</span>
+              </label>
+            </div>
+            <div class="form__row">
+              <label class="field">
+                <span class="field__label">Комментарий <small>— необязательно</small></span>
+                <textarea class="field__input" name="comment" rows="3" placeholder="Например: текущие оценки, желаемый балл, удобное время"></textarea>
+              </label>
+            </div>
+
+            <label class="consent">
+              <input type="checkbox" name="consent" required>
+              <span>Соглашаюсь на&nbsp;обработку персональных данных согласно <a href="privacy.html" target="_blank">политике конфиденциальности</a></span>
+            </label>
+
+            <button class="btn btn--primary btn--lg btn--block" type="submit">Записаться бесплатно</button>
+            <p class="form__hint">Данные не&nbsp;передаются третьим лицам. Никакого спама.</p>
+            <p class="form__status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="form-success" hidden tabindex="-1">
+            <span class="form-success__icon"><svg aria-hidden="true"><use href="#i-check"/></svg></span>
+            <h3>Спасибо! Заявка принята</h3>
+            <p>Я&nbsp;свяжусь с&nbsp;вами в&nbsp;ближайшее время, чтобы договориться о&nbsp;пробном занятии.</p>
+          </div>
+
+          <!-- Запасной сценарий, пока не подключён приём заявок (CONFIG.endpoint пуст) -->
+          <div class="form-fallback" hidden tabindex="-1">
+            <span class="form-success__icon"><svg aria-hidden="true"><use href="#i-chat"/></svg></span>
+            <h3>Почти готово!</h3>
+            <p>Текст заявки скопирован. Отправьте его мне в&nbsp;Telegram — так я&nbsp;точно увижу его быстрее.</p>
+            <pre class="form-fallback__text" data-fallback-text></pre>
+            <a class="btn btn--primary btn--block" href="https://t.me/USERNAME" target="_blank" rel="noopener" data-fallback-link>
+              <svg class="btn__icon" aria-hidden="true"><use href="#i-tg"/></svg>
+              Открыть Telegram
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= ПОДВАЛ ================= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <span class="brand__mark" aria-hidden="true">МВ</span>
+        <div>
+          <p class="footer__name">Маргарита Владимировна</p>
+          <p class="footer__muted">Репетитор по&nbsp;математике онлайн · ОГЭ · ЕГЭ · 8–11 класс</p>
+        </div>
+      </div>
+      <nav class="footer__nav" aria-label="Навигация в подвале">
+        <a href="#approach">Подход</a>
+        <a href="#about">Обо мне</a>
+        <a href="#prices">Цены</a>
+        <a href="#faq">Вопросы</a>
+        <a href="privacy.html">Политика конфиденциальности</a>
+      </nav>
+    </div>
+    <div class="container footer__legal">
+      <!-- TODO: указать статус и реквизиты (самозанятая / ИП, ИНН) — нужно для рекламы в Яндекс.Директ -->
+      <p>© <span data-year>2026</span> Маргарита Владимировна. Самозанятая, ИНН 000000000000.</p>
+    </div>
+  </footer>
+
+  <!-- Плавающая кнопка на мобильных -->
+  <div class="mobile-cta" data-mobile-cta aria-hidden="true">
+    <a class="btn btn--primary btn--block" href="#signup" tabindex="-1">Бесплатное пробное занятие</a>
+  </div>
+
+  <script src="script.js" defer></script>
 </body>
 </html>
