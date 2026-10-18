@@ -437,55 +437,15 @@ button { font: inherit; color: inherit; }
   font-size: clamp(17px, 1.5vw, 19px);
   max-width: 540px;
 }
-
-.offer {
-  margin-top: 28px;
-  padding: 18px 20px;
-  border-left: 3px solid var(--accent);
-  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
-  background: rgba(255, 252, 246, 0.85);
-  box-shadow: var(--shadow);
-  max-width: 520px;
-}
-.offer__title { font-weight: 700; font-size: 18px; }
-.offer__list { margin-top: 8px; display: grid; gap: 4px; }
-.offer__list li {
-  position: relative;
-  padding-left: 26px;
-  color: var(--ink-soft);
-  font-size: 16px;
-}
-.offer__list li::before {
-  content: "";
-  position: absolute;
-  left: 2px;
-  top: 0.45em;
-  width: 12px;
-  height: 7px;
-  border-left: 2px solid var(--accent);
-  border-bottom: 2px solid var(--accent);
-  transform: rotate(-45deg);
-}
+.hero__lead strong { color: var(--accent); font-weight: 500; }
 
 .hero__actions {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   gap: 12px 24px;
-  margin-top: 28px;
-}
-
-.hero__facts {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 8px 24px;
   margin-top: 32px;
-  padding-top: 20px;
-  border-top: 1px solid var(--line);
-  color: var(--muted);
-  font-size: 14px;
 }
-.hero__facts strong { color: var(--ink); font-weight: 600; }
 
 .hero__media { order: 2; padding: 0 var(--gutter) 8px; }
 .placeholder--hero {
